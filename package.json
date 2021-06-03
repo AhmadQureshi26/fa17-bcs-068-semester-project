@@ -37,6 +37,9 @@
     "uid": "^1.0.0",
     "validator": "^13.1.17"
   },
+  "engines": {
+    "node": "14.x"
+  }
   "scripts": {
     "start": "serve -s build",
     "build": "react-scripts build",
