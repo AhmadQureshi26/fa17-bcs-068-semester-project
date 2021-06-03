@@ -1,0 +1,107 @@
+#FormContainer {
+  margin-bottom: 40px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.btnContainer {
+  /* padding: 30px; */
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.btn2 {
+  margin-left: 30px;
+}
+
+#formHeading {
+  font-family: sans-serif;
+  font-size: large;
+  padding: 20px;
+}
+
+#baseForm {
+  padding-bottom: 20px;
+}
+#Datetime {
+  border: 2px solid black;
+
+  padding-right: 20px;
+}
+
+.fourInput {
+  max-width: 20vw !important;
+}
+
+.productInfoForm .fourInput {
+  width: auto !important;
+  min-width: auto !important;
+}
+
+.fourInputSelect {
+  min-width: 16.5vw !important;
+  max-width: 16.5vw !important;
+}
+
+.productInfoForm {
+  padding-bottom: 20px;
+}
+
+.productInfoForm .oneRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.oneThreeRowWithTitle {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* border: 5px solid black; */
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.oneThreeRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.last {
+  /* border: 2px solid black; */
+  margin-top: 30px;
+}
+
+.variableForm {
+  padding-bottom: 20px;
+}
+
+.oneSevenRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  /* flex-wrap: wrap; */
+}
+
+@media (max-width: 905px) {
+  .oneSevenRow {
+    /* display: flex; */
+    flex-wrap: wrap;
+  }
+}
+
+.totalForm {
+  padding: 20px;
+}
+
+@media (max-width: 910px) {
+  .oneInput {
+    /* border: 5px solid black; */
+    margin-top: 20px !important;
+  }
+}

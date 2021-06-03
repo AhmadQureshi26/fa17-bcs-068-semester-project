@@ -1,0 +1,10 @@
+.faqHeader {
+  /* display: flex; */
+  align-self: flex-start;
+  /* border: 4px solid black; */
+  width: 100%;
+}
+/* .faqCard {
+  display: flex;
+  justify-content: flex-start;
+} */

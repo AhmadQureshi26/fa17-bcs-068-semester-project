@@ -1,0 +1,12 @@
+.LineChartParent {
+  margin-top: 10px;
+  width: max-content;
+  padding: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 2px 0 rgba(0, 0, 0, 0.19) !important;
+  background-color: white;
+  border: 0.2px solid #dbdddd;
+}
+
+.LineChartParent h5 {
+  margin-bottom: 10px;
+}

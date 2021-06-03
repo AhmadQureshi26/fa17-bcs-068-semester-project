@@ -1,0 +1,22 @@
+.queryCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: cemter;
+}
+
+.queryCard {
+  margin: 2px;
+  /* border: 4px solid black; */
+  max-width: 25vw;
+  margin-top: 20px;
+  border: 0.1px solid #dbdbdd;
+}
+.queryCard:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.querySearchMain {
+  display: flex;
+  justify-content: center;
+}

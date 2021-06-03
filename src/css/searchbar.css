@@ -1,0 +1,35 @@
+#searchBarMain {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#searchBarForm {
+  display: inline;
+}
+
+#searchIcon {
+  margin-top: 35px;
+  margin-right: 10px;
+}
+#addIcon {
+  margin-top: 35px;
+  margin-left: 10px;
+  /* border: 40px; */
+  border-radius: 10px;
+}
+#addIcon:hover {
+  background-color: #f5f5f5;
+}
+#refreshIcon {
+  margin-top: 35px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+#refreshIcon:hover {
+  background-color: #f5f5f5;
+}
+
+/* .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl */

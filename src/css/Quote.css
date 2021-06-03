@@ -1,0 +1,24 @@
+#quoteMain {
+  color: white;
+  font-size: x-large;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  /* background-repeat: no-repeat; */
+  /* background-image: url("./background-2734972_1920-02.png"); */
+  background-image: url("../assets/contact.png");
+  background-position: right 50% bottom 50%;
+  /* position: fixed;
+  bottom: 0;
+  right: 0; */
+  /* border: 10px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+#quoteMain > div {
+  min-width: 40vw;
+}
+
+#quoteMain button {
+  background-color: blue;
+}
