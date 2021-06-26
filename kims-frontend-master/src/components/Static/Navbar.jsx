@@ -22,7 +22,7 @@ const NavbarTop = () => {
 		<div className="content-div">
 			<Navbar bg="light" expand="lg" style={{ borderRadius: 10 }}>
 				<Navbar.Brand id="navbar-welcome">
-					<p style={{ color: 'black' }}>Kavi Inventory Management System</p>
+					<p style={{ color: 'black' }}>King Inventory Management System</p>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
