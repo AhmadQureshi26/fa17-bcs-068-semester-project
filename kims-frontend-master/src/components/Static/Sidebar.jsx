@@ -79,11 +79,6 @@ const Sidebar = () => {
 						</Link>
 					</li>
 				</ul>
-				<span>
-					<p style={{ color: 'white' }}>
-						All rights to KIMS are reserved by Kazim Haider, Muhammad Naqvi, and{'\n'}Volioché Studios.
-					</p>
-				</span>
 			</nav>
 		</div>
 	);
